@@ -18,7 +18,7 @@ int main(){
   player.tileSize = TILESIZE;
   player.spawnPlayer(SCREENWIDTH, SCREENHEIGHT);
 
-  GameScreen currentScreen = MAIN;
+  GameScreen currentScreen = TITLE;
 
   // Setup game window 
   InitWindow(SCREENWIDTH, SCREENHEIGHT, "Hello, World!");
